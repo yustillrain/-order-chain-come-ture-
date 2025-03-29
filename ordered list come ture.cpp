@@ -17,7 +17,7 @@ SeqList scanf_(SeqList x,int quantity)
 {
 	for (int i = 1; i <= quantity; i++)
 	{
-		scanf_s("%d", &(x.a[x.last + 1]));
+		scanf("%d", &(x.a[x.last + 1]));
 		x.last++;
 	}
 	return x;
